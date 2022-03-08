@@ -1,2 +1,29 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    color: #fff;
+    background: url(./images/mobile/image-header.jpg) no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+h2{
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+}
+
+h1{
+    font-size: 2em;
+    text-align: center;
+    padding-top: 3rem;
+    letter-spacing: .6rem ;
+    text-transform: uppercase;
+
+}
