@@ -6,24 +6,161 @@
     box-sizing: border-box;
 }
 
-.heading{
+header{
     color: #fff;
     background: url(./images/mobile/image-header.jpg) no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 100vh;
 }
 h2{
-    font-size: 1.2em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 1.5rem;
     padding-left: 1rem;
 }
 
 h1{
-    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
     text-align: center;
     padding-top: 3rem;
-    letter-spacing: .6rem ;
+    letter-spacing: .3rem ;
     text-transform: uppercase;
 
+}
+.header_image{
+    position: absolute;
+    top: 57%;
+    left: 50%; 
+    width: 20px;
+    height: 90px;   
+}
+.image{
+    width: 100%;
+}
+.brand{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.4em;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 1em;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+.learn_more{
+    text-transform: uppercase;
+    font-size: .8em;
+    color: #000;
+    padding-left: 32vw;
+}
+
+.design{
+    color: #000;
+    background: url(./images/mobile/image-graphic-design.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.design_1{
+    position:relative;
+    top:60%
+}
+.design_2{
+    color: #000;
+    background: url(./images/mobile/image-photography.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.design_2_1{
+    position:relative;
+    top:60%
+
+}
+.testimonials{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: .8em;
+    text-align: center;
+    padding: 2em;
+    letter-spacing: .3rem ;
+    text-transform: uppercase;
+
+}
+
+.testimonials_img{
+    border-radius: 50%;
+    width: 80px;
+    text-align: center;
+    position:relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+}
+
+.testimonials_view{
+    padding-top: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: .9em;
+
+}
+.testimonials_name{
+    text-align: center;
+    font-size: .9em;
+}
+.testimonials_job{
+    text-align: center;
+    font-size: .9em;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    font-weight: 100;
+    padding-top: .5em;
+    padding-bottom: 2em;
+}
+.gallery{
+    display: flex;
+    }
+.gallery1{
+    width: 50vw;
+    height: 30vh;
+}
+.gallery2{
+    width: 50vw;
+    height: 30vh;
+}
+.footer{
+    text-align: center;
+    padding: 1rem;
+    background-color: rgb(140, 216, 202);
+    height: 50vh;
+}
+.ft1{
+    display: flex;
+    list-style: none;
+    padding: 2em;
+
+}
+.ft2 + .ft2{
+    padding-left: 2em;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+.contact{
+    display: flex;
+    padding: 1em;
+    padding-left: 80px;    
+}
+.cont{
+    height: 15px;
+}
+.cont + .cont{
+    padding-left: 1rem;
+    
 }
